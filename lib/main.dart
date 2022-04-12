@@ -29,9 +29,6 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       theme: Provider.of<CustomThemeDataModel>(context).getThemeData,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Material App Bar'),
-        ),
         body: Center(
           child: FlowerNonView(),
         ),
